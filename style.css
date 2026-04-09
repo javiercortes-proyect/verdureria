@@ -362,3 +362,42 @@ footer {
         gap: 10px; /* Menos espacio entre links del menú */
     }
 }
+/* Estilos para las tarjetas de información inferior */
+.contenedor-info {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px 10px;
+}
+
+.tarjeta-info {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    width: 280px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border-top: 5px solid #28a745; /* Color verde de tu tienda */
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tarjeta-info:hover {
+    transform: translateY(-8px);
+}
+
+.icono-info {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tarjeta-info h4 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.tarjeta-info p {
+    color: #555;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
